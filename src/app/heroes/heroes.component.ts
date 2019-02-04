@@ -9,10 +9,10 @@ import { HEROES } from '../mock-heroes';
 })
 export class HeroesComponent implements OnInit {
   
-  hero: Hero = {
-    id: 1,
-    name: 'Windstrom'
-  };
+  //hero: Hero = {
+  //  id: 1,
+  //  name: 'Windstrom'
+  //};
 
   heroes = HEROES;
 
